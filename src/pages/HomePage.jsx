@@ -12,7 +12,7 @@ const HomePage = () => {
 
       <div className="banner-container">
         <h1 className="home-title">Welcome to Vivekanand College!</h1>
-        <p>Your journey to excellence starts here.</p>
+        <p className="line">Your journey to excellence starts here.</p>
         <div className="button-wrapper">
         <a href="/apply" className="my-button">Apply Now!</a>
         </div>

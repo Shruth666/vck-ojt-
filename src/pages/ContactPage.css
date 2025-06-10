@@ -58,7 +58,7 @@ textarea {
   font-family: Arial, sans-serif;
   color: #333;
 }
-my-button {
+.my-button {
       background-color: #4CAF50; /* Green */
       border: none;
       color: white;

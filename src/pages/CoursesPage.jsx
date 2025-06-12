@@ -93,12 +93,9 @@ const CoursesPage = () => {
       Explore detailed syllabi and admission criteria on our Admissions page.
     </h5>
 
-    <a href='/contact'  class="cta-button">Enquire About Courses</a>
+    <a href='/contact'  class="my-button">Enquire About Courses</a>
     
   </div>
-
-
-
 
 
 )

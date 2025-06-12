@@ -31,7 +31,7 @@ const Headers = () => {
         </button>
       </div>
 
-      <div className={`mobile-menu ${menuOpen ? 'show' : ''}`}>
+      <div className= {`mobile-menu ${ menuOpen ? 'show' : ''}`}>
         <Link to="/" onClick={closeMenu} className="mobile-link">Home</Link>
         <Link to="/about" onClick={closeMenu} className="mobile-link">About</Link>
         <Link to="/courses" onClick={closeMenu} className="mobile-link">Courses</Link>

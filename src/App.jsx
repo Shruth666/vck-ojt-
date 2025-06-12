@@ -24,7 +24,7 @@ function App() {
     <Router>
       <Header />
       
-      <main style={{ padding: '1rem' }}>
+      <main style={{ padding: '1rem', backgroundColor: "aqua" }}>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />

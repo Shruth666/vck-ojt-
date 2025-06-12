@@ -51,13 +51,13 @@ const ChatbotComponent = () => {
     }
     if (isKnowledgeBaseLoading) {
       setLoading(false);
-      return "Please wait, I'm still getting ready...";
+      return "Please wait, I'm still getting ready...";                                //AI always returns only numeric values.
     }
     try {
       const userEmbedding = await getEmbeddings(userMessageText); // we recieve vectors
       let bestMatch = { intent: "default", score: 0 };
       for (const intent in preparedKnowledgeBase) {
-        if (intent === "default") continue;
+        if (intent === "default") continue;                         //(===) for strictly match
         const intentEmbeddings =
           preparedKnowledgeBase[intent].exampleEmbeddings;
         if (intentEmbeddings.length === 0) continue;
@@ -173,17 +173,17 @@ const ChatbotComponent = () => {
               {messages.map((message, index) => (
                 <div key={index} className={`message-row ${message.sender}`}>
                   {message.sender === "bot" && (
-                    <div className="avatar bot-avatar">:robot_face:</div>
+                    <div className="avatar bot-avatar">👩‍💼</div>
                   )}
                   <p className={`${message.sender}-message`}>{message.text}</p>
                   {message.sender === "user" && (
-                    <div className="avatar user-avatar">:silhouette:</div>
+                    <div className="avatar user-avatar">👤</div>
                   )}
                 </div>
               ))}
               {loading && (
                 <div className="message-row bot">
-                  <div className="avatar bot-avatar">Robot-Face</div>
+                  <div className="avatar bot-avatar">👤</div>
                   <p className="bot-message loading-indicator">Typing...</p>
                 </div>
               )}

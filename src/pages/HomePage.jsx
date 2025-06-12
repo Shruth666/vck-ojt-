@@ -37,7 +37,7 @@ const HomePage = () => {
         </div>
         <p className="home-subtext">Ready to start your journey with us?</p>
         <div className="button-wrapper"> 
-        <a href="/apply" className="my-button" onClick={() => setShowForm(true)}>Apply Now!</a>
+        <a href="/courses" className="my-button" onClick={() => setShowForm(true)}>Explore Courses</a>
         </div>
         {/* Future: Admission Form Component */}
         {/* {showForm && <AdmissionForm />} */}

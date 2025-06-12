@@ -57,7 +57,7 @@ const ChatbotComponent = () => {
       const userEmbedding = await getEmbeddings(userMessageText); // we recieve vectors
       let bestMatch = { intent: "default", score: 0 };
       for (const intent in preparedKnowledgeBase) {
-        if (intent === "default") continue;                         //(===) for strictly match
+        if (intent === "default") continue;                         //(===) for strictly match values and data type both
         const intentEmbeddings =
           preparedKnowledgeBase[intent].exampleEmbeddings;
         if (intentEmbeddings.length === 0) continue;
@@ -165,7 +165,7 @@ const ChatbotComponent = () => {
             )}
             {!isOnline && (
               <p className="chatbot-message offline-message">
-                :no_entry_symbol:: You are currently offline. Please check your internet
+                🚫 You are currently offline. Please check your internet
                 connection.
               </p>
             )}
@@ -183,7 +183,7 @@ const ChatbotComponent = () => {
               ))}
               {loading && (
                 <div className="message-row bot">
-                  <div className="avatar bot-avatar">👤</div>
+                  <div className="avatar bot-avatar">🤔</div>
                   <p className="bot-message loading-indicator">Typing...</p>
                 </div>
               )}

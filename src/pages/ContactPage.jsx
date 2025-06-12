@@ -28,7 +28,7 @@ const ContactPage = () => {
     <h2>Student Support Services</h2>
     <p>
       <li className="text">For current student support,academic advising, Counseling Services or general assistance:</li>  
-      <li className="text">Phone: +91 8765432109</li>Phone: +91 8765432109
+      <li className="text">Phone: +91 8765432109</li>
       <li className="text">Email: <strong>studentsupport@vivekanandcollege.edu</strong></li>
     </p>
 

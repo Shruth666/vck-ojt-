@@ -3,7 +3,7 @@
   overflow-y: auto;
   overflow-x: visible;
   padding: 2rem;
-  width: 941.6px;
+  width: 1200px;
   height: 541px;
   border: 1px solid #000;
  justify-content: center; /* Center horizontally */
@@ -147,7 +147,7 @@ li {
   max-width: 420px;
   height: auto;
   border-radius: 10px;
-  box-shadow: #00BFFF;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
   transition: transform 0.3s ease;
 }
 

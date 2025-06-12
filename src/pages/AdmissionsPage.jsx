@@ -43,11 +43,11 @@ const Admissions = () => {
 
       <h2>Application Process</h2>
       <ol className="application-list">
-        <li><strong>Online Application:</strong> Fill out the application form available on our portal.</li>
-        <li><strong>Document Submission:</strong> Upload scanned copies of required documents (mark sheets, ID proof, etc.).</li>
-        <li><strong>Entrance Exam (if applicable):</strong> Appear for the college's entrance examination.</li>
-        <li><strong>Merit List & Interview:</strong> Check the merit list and attend the interview if shortlisted.</li>
-        <li><strong>Fee Payment:</strong> Complete the admission by paying the required fees.</li>
+        <li className="text"><strong>Online Application:</strong> Fill out the application form available on our portal.</li>
+        <li className="text"><strong>Document Submission:</strong> Upload scanned copies of required documents (mark sheets, ID proof, etc.).</li>
+        <li className="text"><strong>Entrance Exam (if applicable):</strong> Appear for the college's entrance examination.</li>
+        <li className="text"><strong>Merit List & Interview:</strong> Check the merit list and attend the interview if shortlisted.</li>
+        <li className="text"><strong>Fee Payment:</strong> Complete the admission by paying the required fees.</li>
       </ol>
 
       <p>

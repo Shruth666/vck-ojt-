@@ -12,24 +12,24 @@ const ContactPage = () => {
      <h2>General Enquiries</h2>
     <p>
       Vivekanand College Main Campus
-      nagala park ,2130, E Ward, Tarabai Park, Kolhapur, Maharashtra 416003, India
-      Phone: +91 12345 67890
-      Email: <strong>info@vivekanandcollege.edu</strong>
-      Office Hours: Monday – Friday, 9:00 AM – 5:00 PM IST
+      [nagala park ,2130, E Ward, Tarabai Park, Kolhapur, Maharashtra 416003, India]
+      <li className="text"> Phone: +91 12345 67890</li>
+      <li className="text">Email: <strong > info@vivekanandcollege.edu</strong></li>
+      <li className="text">Office Hours: Monday – Friday, 9:00 AM – 5:00 PM IST</li>
     </p>
 
     <h2>Admissions Office</h2>
     <p>
-      For all admission-related queries regarding undergraduate or postgraduate programs:
-      Phone: +91 9876543210
-      Email: <strong>admissions@vivekanandcollege.edu</strong>
+      <li className="text">For all admission-related queries regarding undergraduate or postgraduate programs:</li>
+      <li className="text">Phone: +91 9876543210</li>
+      <li className="text">Email: <strong>admissions@vivekanandcollege.edu</strong></li>
     </p>
 
     <h2>Student Support Services</h2>
     <p>
-      For current student support,academic advising, Counseling Services or general assistance:      
-      Phone: +91 8765432109
-      Email: <strong>studentsupport@vivekanandcollege.edu</strong>
+      <li className="text">For current student support,academic advising, Counseling Services or general assistance:</li>  
+      <li className="text">Phone: +91 8765432109</li>Phone: +91 8765432109
+      <li className="text">Email: <strong>studentsupport@vivekanandcollege.edu</strong></li>
     </p>
 
     <h2>Find Us on the Map</h2>

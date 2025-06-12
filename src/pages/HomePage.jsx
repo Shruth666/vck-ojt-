@@ -23,11 +23,11 @@ const HomePage = () => {
       <div>  
         <h2>Why Choose Vivekanand College?</h2>
         <ul>
-          <li><strong>Legacy of Excellence:</strong> Decades of commitment to quality education.</li>
-          <li><strong>Experienced Faculty:</strong> Learn from renowned experts and passionate educators.</li>
-          <li><strong>Modern Facilities:</strong> Well-equipped labs, expansive library, and comfortable campus.</li>
-          <li><strong>Holistic Development:</strong> Focus on co-curricular activities, sports, and community service.</li>
-          <li><strong>Strong Placements:</strong> Excellent career opportunities with leading companies.</li>
+          <li className="text"><strong>Legacy of Excellence:</strong> Decades of commitment to quality education.</li>
+          <li className="text"><strong>Experienced Faculty:</strong> Learn from renowned experts and passionate educators.</li>
+          <li className="text"><strong>Modern Facilities:</strong> Well-equipped labs, expansive library, and comfortable campus.</li>
+          <li className="text"><strong>Holistic Development:</strong> Focus on co-curricular activities, sports, and community service.</li>
+          <li className="text"><strong>Strong Placements:</strong> Excellent career opportunities with leading companies.</li>
         </ul>
         <div>
           <h2> Campus Life & Facilities</h2>

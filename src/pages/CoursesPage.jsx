@@ -20,33 +20,33 @@ const CoursesPage = () => {
 
     <h2>Undergraduate Programs</h2>
     <ul>
-        <li>BSc - Computer Science (3 years)</li>
-        <li>BSc - Information Technology (3 years)</li>
-        <li>BSc - Biotechnology (3 years)</li>
-        <li>BCom - Accounting & Finance (3 years)</li>
-        <li>BCom - Banking & Insurance (3 years)</li>
-        <li>BA - English Literature (3 years)</li>
-        <li>BA - Psychology (3 years)</li>
+        <li className="text">BSc - Computer Science (3 years)</li>
+        <li className="text">BSc - Information Technology (3 years)</li>
+        <li className="text">BSc - Biotechnology (3 years)</li>
+        <li className="text">BCom - Accounting & Finance (3 years)</li>
+        <li className="text">BCom - Banking & Insurance (3 years)</li>
+        <li className="text">BA - English Literature (3 years)</li>
+        <li className="text">BA - Psychology (3 years)</li>
     </ul>
 
     <h2>Postgraduate Programs</h2>
     <ul>
-        <li>MSc - Computer Science (2 years)</li>
-        <li>MSc - Information Technology (2 years)</li>
-        <li>MCom - Master of Commerce (2 years)</li>
-        <li>MA - Master of Arts (2 years)</li>
+        <li className="text">MSc - Computer Science (2 years)</li>
+        <li className="text">MSc - Information Technology (2 years)</li>
+        <li className="text">MCom - Master of Commerce (2 years)</li>
+        <li className="text">MA - Master of Arts (2 years)</li>
     </ul>
 
     <h3>Postgraduate Programs (PG)</h3>
     <ul>
-      <li><strong>Master of Science (M.Sc.)</strong>
+      <li className="text"><strong>Master of Science (M.Sc.)</strong>
         <ul>
-          <li>Computer Science (2 years)</li>
-          <li>Information Technology (2 years)</li>
+          <li className="text">Computer Science (2 years)</li>
+          <li className="text">Information Technology (2 years)</li>
         </ul>
       </li>
-      <li><strong>Master of Commerce (M.Com)</strong> (2 years)</li>
-      <li><strong>Master of Arts (M.A.)</strong> (2 years)</li>
+      <li className="text"><strong>Master of Commerce (M.Com)</strong> (2 years)</li>
+      <li className="text"><strong>Master of Arts (M.A.)</strong> (2 years)</li>
     </ul>
     <div class="container">
     <h2 class="custom-table-style">Program Details & Fee Structure (Annual)</h2>

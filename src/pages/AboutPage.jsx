@@ -16,10 +16,10 @@ const AboutPage = () => {
     </p>
     <h2>Our Mission</h2>
     <ul>
-      <li>To provide high-quality, accessible education across various disciplines.</li>
-      <li>To foster research, innovation, and creativity among students and faculty.</li>
-      <li>To cultivate a diverse and inclusive learning environment.</li>
-      <li>To instill strong ethical values and leadership qualities.</li>
+      <li className="text">To provide high-quality, accessible education across various disciplines.</li>
+      <li className="text">To foster research, innovation, and creativity among students and faculty.</li>
+      <li className="text">To cultivate a diverse and inclusive learning environment.</li>
+      <li className="text">To instill strong ethical values and leadership qualities.</li>
     </ul>
 
     <h2>Our Values</h2>

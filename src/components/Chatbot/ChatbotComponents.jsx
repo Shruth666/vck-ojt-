@@ -139,7 +139,7 @@ const ChatbotComponent = () => {
           <img
             src= "/Images/operator.png"
             alt="Chat Icon"
-            style={{ width: "100px", height: "auto" }}
+            style={{ width: "135px", height: "auto" }}
           />
         </button>
       )}

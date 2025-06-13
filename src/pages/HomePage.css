@@ -79,6 +79,7 @@ li {
   position: cover;
   overflow: hidden;                     /* Important for clipping blur */
   height: 300px;
+  max-width: 960px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,6 +87,8 @@ li {
   color: #00BFFF;
   border-radius: 10px;
   padding: 6rem 2rem;
+  margin: 20px auto;
+  border: 8px;
 }
 .banner-container::before {
   content: "";
